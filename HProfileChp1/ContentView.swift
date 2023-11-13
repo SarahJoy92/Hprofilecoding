@@ -19,7 +19,8 @@ struct ContentView: View {
                 .fontWeight(.bold)
                 
             Text("Chapter 1")
-            Text("By Sarah Huguley")
+            Text("By Sarah Huguley123")
+            
         }
         .padding()
     }
