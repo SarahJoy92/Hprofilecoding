@@ -11,6 +11,8 @@
 		741656032B02BC01003E7C83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741656022B02BC01003E7C83 /* ContentView.swift */; };
 		741656052B02BC02003E7C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741656042B02BC02003E7C83 /* Assets.xcassets */; };
 		741656082B02BC02003E7C83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741656072B02BC02003E7C83 /* Preview Assets.xcassets */; };
+		D10AC7132B0414CF00985467 /* Chapter2Read.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10AC7122B0414CF00985467 /* Chapter2Read.swift */; };
+		D14F2A9B2B02C79400E18D95 /* Chapter2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14F2A9A2B02C79400E18D95 /* Chapter2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		741656022B02BC01003E7C83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		741656042B02BC02003E7C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		741656072B02BC02003E7C83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D10AC7122B0414CF00985467 /* Chapter2Read.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2Read.swift; sourceTree = "<group>"; };
+		D14F2A9A2B02C79400E18D95 /* Chapter2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				741656002B02BC01003E7C83 /* HProfileChp1App.swift */,
 				741656022B02BC01003E7C83 /* ContentView.swift */,
+				D14F2A9A2B02C79400E18D95 /* Chapter2.swift */,
+				D10AC7122B0414CF00985467 /* Chapter2Read.swift */,
 				741656042B02BC02003E7C83 /* Assets.xcassets */,
 				741656062B02BC02003E7C83 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				741656032B02BC01003E7C83 /* ContentView.swift in Sources */,
 				741656012B02BC01003E7C83 /* HProfileChp1App.swift in Sources */,
+				D10AC7132B0414CF00985467 /* Chapter2Read.swift in Sources */,
+				D14F2A9B2B02C79400E18D95 /* Chapter2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +280,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HProfileChp1/Preview Content\"";
+				DEVELOPMENT_TEAM = U5826G2GQB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HProfileChp1/Preview Content\"";
+				DEVELOPMENT_TEAM = U5826G2GQB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
