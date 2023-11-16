@@ -10,6 +10,8 @@ import SwiftUI
 @main
 struct HProfileChp1App: App {
     var body: some Scene {
+        
+        
         WindowGroup {
             Arika_Chapter_4()
         }
