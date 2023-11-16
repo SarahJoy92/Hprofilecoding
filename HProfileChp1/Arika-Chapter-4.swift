@@ -21,6 +21,8 @@ struct Arika_Chapter_4: View {
             ZStack {
                 Color.mint
                     .ignoresSafeArea()
+            ScrollView{
+           
                 
                 VStack {
                     
@@ -28,6 +30,7 @@ struct Arika_Chapter_4: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 220, height: 220)
+                        .rotationEffect(.degrees(-12))
                         
                     Spacer()
                     
@@ -37,6 +40,12 @@ struct Arika_Chapter_4: View {
                         Toggle(isOn: $goOut) {
                             Text(goOut == false ? "Stay home" : "Go out")
                                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                            if goOut {
+                                Text("We're going club hopping! Let me call my girls")
+                            } else {
+                                Text("I am in for the night cuddling with Snickers")
+                                
+                            }
                         }
 //                        .padding(.bottom, 40)
                         
@@ -50,16 +59,35 @@ struct Arika_Chapter_4: View {
                             .fontWeight(.bold)
                             .padding(.bottom)
                             
+                            switch friend {
+                            case "Amanda":
+                                Text("Wants to go to Compound Night club")
+                            case "Tammy":
+                                Text("Wants to go to Indigo Night Club")
+                            case "Olivia":
+                                Text("Wants to go to Room 112")
+                            case "Jasmine":
+                                Text("Wants to go Truth Night Club")
+                            default:
+                                Text("")
+                                
+                            }
+                            
                             VStack {
                                 HStack {
                                     Button("Party Time") {
                                         print("Drink up ladies!")
+                                        
                                     }
+                                    
                                     Button("Slow Down") {
                                         print("We had enough!")
                                     }
+                                    
+                                    
                                 }
-                            
+                                .padding(.top)
+
                             Picker("Drinks", selection: $drink) {ForEach(drinks, id: \.self) { index in Text(index)}
                             }
                             .pickerStyle(InlinePickerStyle())
@@ -92,9 +120,9 @@ struct Arika_Chapter_4: View {
                         
                     }
                 }.padding()
-                .navigationTitle("Things go Wrong")
+                .navigationTitle("When It Rains It Pours")
             }
-        }
+}        }
     }
 }
 
