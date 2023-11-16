@@ -11,6 +11,7 @@
 		741656032B02BC01003E7C83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741656022B02BC01003E7C83 /* ContentView.swift */; };
 		741656052B02BC02003E7C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741656042B02BC02003E7C83 /* Assets.xcassets */; };
 		741656082B02BC02003E7C83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741656072B02BC02003E7C83 /* Preview Assets.xcassets */; };
+		E99B89202B03F56F001914F3 /* Arika-Chapter-4.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99B891F2B03F56F001914F3 /* Arika-Chapter-4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		741656022B02BC01003E7C83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		741656042B02BC02003E7C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		741656072B02BC02003E7C83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E99B891F2B03F56F001914F3 /* Arika-Chapter-4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Arika-Chapter-4.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				741656002B02BC01003E7C83 /* HProfileChp1App.swift */,
 				741656022B02BC01003E7C83 /* ContentView.swift */,
+				E99B891F2B03F56F001914F3 /* Arika-Chapter-4.swift */,
 				741656042B02BC02003E7C83 /* Assets.xcassets */,
 				741656062B02BC02003E7C83 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E99B89202B03F56F001914F3 /* Arika-Chapter-4.swift in Sources */,
 				741656032B02BC01003E7C83 /* ContentView.swift in Sources */,
 				741656012B02BC01003E7C83 /* HProfileChp1App.swift in Sources */,
 			);

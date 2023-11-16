@@ -11,7 +11,7 @@ import SwiftUI
 struct HProfileChp1App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Arika_Chapter_4()
         }
     }
 }
