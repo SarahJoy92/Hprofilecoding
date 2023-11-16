@@ -13,7 +13,7 @@ struct HProfileChp1App: App {
         
         
         WindowGroup {
-            ContentView()
+            Arika_Chapter_4()
         }
     }
 }
