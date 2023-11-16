@@ -12,23 +12,35 @@ struct Chp1Page3: View {
         ZStack {
             Color(Color.color)
                 .ignoresSafeArea()
-            Image("amandap")
-                .scaledToFit()
-                .padding()
+            ScrollView{
+                ZStack{
+                    Color.gray
+                        .opacity(0.7)
+                        
+                    
+                    // Image("amandap")
+                    //  .scaledToFit()
+                    // .padding()
+                    
+                    VStack {
+                        Text("\"Amanda Pierce and Associates\"")
+                            .fontWeight(.bold)
+                            .font(.largeTitle)
+                            .font(.body)
+                            .padding()
+                    
+                    }
+                    
+                    
+               }
                 
                 
-        
-            Text("\"Amanda Pierce and Associates\"")
-                .fontWeight(.bold)
-                .font(.largeTitle)
-                .font(.body)
-                
-            
+            }
         }
-        
     }
 }
-
 #Preview {
     Chp1Page3()
+    
+    
 }
