@@ -48,7 +48,7 @@ struct ContentView: View {
                     
                             .padding()
                             
-    //                        .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxHeight: 600000, alignment: .topLeading)
+    //                     .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxHeight: 600000, alignment: .topLeading)
                             .lineSpacing(10.0)
                         
                       //  func kerning(_kerning:CGFloat)-> some View
