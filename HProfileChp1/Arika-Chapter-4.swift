@@ -95,6 +95,11 @@ struct Arika_Chapter_4: View {
                             
                             
                             Stepper(value: $shots, in: 0...10, step: 1) {Text("Number of Shots: \(shots)")
+                                if shots <= 4 {
+                                    Text("Lets do one more")
+                                } else {
+                                    Text("We need to slow down")
+                                }
                             }
                             TextField("How should Amanda get home?", text: $rideHome)
                                 .fontWeight(.bold)
