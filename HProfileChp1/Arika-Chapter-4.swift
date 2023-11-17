@@ -81,7 +81,7 @@ struct Arika_Chapter_4: View {
                                     }
                                     
                                     Button("Slow Down") {
-                                        print("We had enough!")
+                                        print("We need water!")
                                     }
                                     
                                     
@@ -96,7 +96,7 @@ struct Arika_Chapter_4: View {
                             
                             Stepper(value: $shots, in: 0...10, step: 1) {Text("Number of Shots: \(shots)")
                                 if shots <= 4 {
-                                    Text("Lets do one more")
+                                    Text("Lets do another round")
                                 } else {
                                     Text("We need to slow down")
                                 }
