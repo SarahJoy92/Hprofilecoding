@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct Chp1Page3: View {
+    @GestureState private var zoom = 1.0
     var body: some View {
         ZStack {
             Color(Color.color)
@@ -46,7 +47,7 @@ struct Chp1Page3: View {
                          VStack {
                              Spacer()
                              Spacer()
-                        
+                            Spacer()
                              Text("\"HIGH PROFILE\"").font(.headline)
                                  .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                                 
@@ -65,6 +66,13 @@ struct Chp1Page3: View {
                             Label("Tammy,Olivia,Jasmine: Girlfriends", systemImage: "figure.socialdance")
                             Label("Snickers: Amanda's Dog", systemImage: "dog.fill")
                             Label("Sharon: Amanda's Mom", systemImage: "figure.and.child.holdinghands")
+                                    .gesture(
+                                        MagnifyGesture()
+                                            .updating($zoom) { value, gestureState, transaction in
+                                                gestureState = value.magnification
+                                            }
+                                    )
+                            
                             
                         
                         
@@ -80,14 +88,20 @@ struct Chp1Page3: View {
                         
                             
                        }
-                         
+                    
+                
+                
+
                          .background(Color.gray)
                          .opacity(7)
                         
                     
                         
                     }
-                    
+                
+                .padding()
+                Text("3")
+                    //.padding()
                         
                     }
            // .background(Color.gray

@@ -45,8 +45,20 @@ struct Chp1Page2: View {
                                         .scaledToFit()
                                         .frame(width: 100,height: 200)
                                         .padding()
-                                    Text("press")
+                                    Label(
+                                        title: { Text("PRESS") },
+                                        icon: {Image(systemName: "arrowshape.turn.up.backward.2.fill")  }
+                                    
+                                  //  Label(
+                                       // title: { /*@START_MENU_TOKEN@*/Text("Label")/*@END_MENU_TOKEN@*/ },
+                                      //  icon: { /*@START_MENU_TOKEN@*/Image(systemName: "42.circle")/*@END_MENU_TOKEN@*/ }
+                                    )
+                                    //Text("press")
+                                    
+                                    
                                 })
+                                Text("2")
+                                
                                 
                                
           
